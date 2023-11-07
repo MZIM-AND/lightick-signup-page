@@ -1,0 +1,117 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif, "poppins";
+  background-color: rgb(139, 129, 129);
+  color: white;
+  max-height: 1000px;
+}
+
+/*the holder box styles are here*/
+
+#holder{
+  display: flex;
+  height: 560px;
+  width: 900px;
+  background-image: linear-gradient(to bottom, black, navy, navy);
+  margin-top: 0.5rem;
+  margin-left: 8rem;
+  box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.3);;
+}
+
+.holder1{
+  height: 560px;
+  width: 50%;
+  background-color: black;
+}
+
+#logo{
+  display: flex;
+}
+
+.logo-circle{
+  height: 50px;
+  width: 50px;
+  background-image: linear-gradient(to bottom, purple,red);
+  border-radius: 100%;
+  Margin-top: 2rem;
+  margin-left: 2rem;
+  color: white;
+  display: flex;
+  opacity: 95%;
+}
+
+h7{
+  margin: auto;
+  font-size: 25px;
+}
+
+h1{
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+  opacity: 0.9;
+}
+
+.instruction{
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+/*holder1 styles ends here*/
+
+.holder2{
+  height: 560px;
+  width: 50%;
+  background-image: url("https://images.unsplash.com/photo-1436891620584-47fd0e565afb?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*form styles start in this section*/
+
+label, input{
+  display: block;
+  margin-left: 2rem;
+  font-size: 15px;
+}
+
+input{
+  margin-top: 0.5rem;
+  height: 30px;
+  width: 300px;
+  font-size: 15px;
+
+}
+
+label{
+  margin-top: 1rem;
+}
+
+/*signup button styles are here*/
+
+.sign-up{
+  height: 30px;
+  width: 300px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  border: none;
+  background-color: blue;
+  color: #ffff;
+  cursor: pointer;
+  opacity: 0.9;
+  border-radius: 6px;
+}
+
+.sign-up:hover{
+  background-color: #fff;
+  color: black;
+  transition: 0.4s ease;
+}
+
+
